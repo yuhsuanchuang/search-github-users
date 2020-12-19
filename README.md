@@ -1,4 +1,4 @@
-# Search Github User
+# Search Github Users
 
 This project is a front-end web app where user can search Github users by login name.
 
