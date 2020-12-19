@@ -19,7 +19,7 @@ function SearchPage({ queryUsers, onChangePage }) {
   const searchQuery = new URLSearchParams(location.search);
   const currentUserName = searchQuery.get("userName");
   const currentPage = searchQuery.get("page");
-  const [searchUserName, setSearchUserName] = useState(currentPage || "");
+  const [searchUserName, setSearchUserName] = useState(currentUserName || "");
 
   const searchHandler = ({ userName = currentUserName, page = "1" }) => {
     onChangePage(parseInt(page, 10));
