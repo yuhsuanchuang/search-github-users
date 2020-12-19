@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, browserHistory, Switch, Route } from "react-router-dom";
 import "./App.css";
 import UserPage from "./user";
 import SearchPage from "./search";
@@ -14,7 +14,7 @@ function App() {
           github
         </a>
       </div>
-      <BrowserRouter>
+      <BrowserRouter history={browserHistory}>
         <Switch>
           <Route exact path="/" component={SearchPage} />
           <Route exact path="/user/:userName" component={UserPage} />
