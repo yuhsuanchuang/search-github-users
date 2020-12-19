@@ -13,13 +13,13 @@ This project is a front-end web app where user can search Github users by login 
 - Clone the repo:
 
 ```
-git clone https://github.com/yuhsuanchuang/github-user-search.git
+git clone https://github.com/yuhsuanchuang/search-github-users.git
 ```
 
 - Install the package dependencies, build and start:
 
 ```sh
-$ cd github-user-search
+$ cd search-github-users
 $ npm install
 $ npm run build
 $ npm start
