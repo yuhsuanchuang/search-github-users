@@ -3,3 +3,175 @@
   padding: 5px;
   text-align: center;
 }
+.search-bar-container {
+  margin-left: 10%;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+}
+
+input {
+  padding: 5px 15px;
+  border: 1px black solid;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 50%;
+  margin: 5px;
+  height: 100%;
+  background: #f1f1f1;
+  font-size: 17px;
+}
+
+.search-button {
+  padding: 10px;
+  border: none;
+  background-color: #0b7dda;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 15px;
+  margin: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.search-button:hover {
+  background: #3f51b5;
+  cursor: pointer;
+}
+
+.search-result-container {
+  margin-left: 10%;
+  width: 80%;
+  height: 90%;
+  padding: 10px;
+  border: 1px black solid;
+  background: #ececec;
+  text-align: center;
+}
+
+.pagination-button {
+  padding: 10px;
+  border: none;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: auto;
+  border-radius: 10px;
+  margin: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.pagination-button:hover {
+  background: #b0b0b1;
+  cursor: pointer;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: 10px;
+  font-family: arial;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: left;
+}
+
+.card:hover {
+  background: #acc3e2;
+  cursor: pointer;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.profile_avatar {
+  vertical-align: middle;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 9px solid #666666;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.user-profile {
+  float: left;
+  text-align: left;
+  padding: 1%;
+  margin-left: 1%;
+  width: 30%;
+  height: 100%;
+}
+
+.user-details-container {
+  margin-left: 35%;
+  width: 55%;
+  height: 90%;
+  padding: 1%;
+  text-align: left;
+  position: relative;
+}
+
+.user-details-card {
+  width: 100%;
+  height: auto;
+  text-align: left;
+  margin: 2% 0 2% 0;
+}
+
+.title {
+  color: #0255db;
+  font-size: 120%;
+  text-decoration: none;
+  font-weight: bold;
+  width: 100%;
+}
+
+.repo-attribute {
+  color: gray;
+  font-size: 10%;
+  padding-right: 10px;
+}
+
+.tab {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 1px 2px;
+  transition: 0.3s;
+  font-size: auto;
+  width: 33%;
+  height: 20%;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
