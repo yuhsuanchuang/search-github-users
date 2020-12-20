@@ -30,7 +30,7 @@ module.exports = {
       "process.env": {
         NODE_ENV: JSON.stringify("production"),
         GITHUB_API_TOKEN: JSON.stringify(
-          "864b9d4a9100423494a313d8023196e0879e64ae"
+          "3125f78381a53b3909a04a6a1f290549cecd9bbf"
         ),
       },
     }),
