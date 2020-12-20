@@ -54,7 +54,6 @@ function UserPage({
 }) {
   const params = useParams();
   const { userName } = params;
-  console.log(userName);
   const [tab, setTab] = useState(tabs.repos);
 
   const queryUserDetailsHandler = ({
