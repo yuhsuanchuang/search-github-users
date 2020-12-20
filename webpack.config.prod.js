@@ -29,9 +29,7 @@ module.exports = {
     new webpack.DefinePlugin({
       "process.env": {
         NODE_ENV: JSON.stringify("production"),
-        GITHUB_API_TOKEN: JSON.stringify(
-          "3125f78381a53b3909a04a6a1f290549cecd9bbf"
-        ),
+        GITHUB_API_TOKEN: JSON.stringify(process.env.GITHUB_API_TOKEN),
       },
     }),
   ],

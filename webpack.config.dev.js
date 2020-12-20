@@ -1,5 +1,6 @@
 var path = require("path");
 var webpack = require("webpack");
+require("dotenv").config();
 
 module.exports = {
   devtool: "eval-cheap-source-map",
@@ -33,9 +34,7 @@ module.exports = {
     new webpack.ProgressPlugin(),
     new webpack.DefinePlugin({
       "process.env": {
-        GITHUB_API_TOKEN: JSON.stringify(
-          "3125f78381a53b3909a04a6a1f290549cecd9bbf"
-        ),
+        GITHUB_API_TOKEN: JSON.stringify(process.env.GITHUB_API_TOKEN),
       },
     }),
   ],
