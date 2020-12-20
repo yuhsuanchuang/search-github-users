@@ -29,7 +29,16 @@ module.exports = {
       },
     ],
   },
-  plugins: [new webpack.ProgressPlugin()],
+  plugins: [
+    new webpack.ProgressPlugin(),
+    new webpack.DefinePlugin({
+      "process.env": {
+        GITHUB_API_TOKEN: JSON.stringify(
+          "864b9d4a9100423494a313d8023196e0879e64ae"
+        ),
+      },
+    }),
+  ],
   devServer: {
     contentBase: "./dist",
     hot: true,
