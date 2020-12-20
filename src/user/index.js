@@ -81,7 +81,7 @@ function UserPage({
         <div className="tab">
           {Object.keys(tabs).map((t) => (
             <button
-              style={{ backgroundColor: tab === tabs[t] ? "#eee" : null }}
+              style={{ backgroundColor: tab === tabs[t] ? "#f1f1f1" : null }}
               key={t}
               type="button"
               onClick={() => {
