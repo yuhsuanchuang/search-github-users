@@ -48,4 +48,4 @@ $ npm run dev
 
 ### Deployment
 
-This application was deployed on "[Now](https://zeit.co/now)" at [https://search-github-users-nine.vercel.app/](https://search-github-users-nine.vercel.app/)
+This application was deployed on "[Vercel](https://zeit.co/now)" at [https://search-github-users-nine.vercel.app/](https://search-github-users-nine.vercel.app/)
